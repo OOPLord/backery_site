@@ -1,0 +1,213 @@
+/* Fonts
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _  */
+
+/* font-family: "ProximaNovaRegular"; */
+@font-face {
+    font-family: "ProximaNovaRegular";
+    src: url("../fonts/ProximaNovaRegular/ProximaNovaRegular.eot");
+    src: url("../fonts/ProximaNovaRegular/ProximaNovaRegular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/ProximaNovaRegular/ProximaNovaRegular.woff") format("woff"),
+    url("../fonts/ProximaNovaRegular/ProximaNovaRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "PlayfairDisplayBold"; */
+@font-face {
+    font-family: "PlayfairDisplayBold";
+    src: url("../fonts/PlayfairDisplayBold/PlayfairDisplayBold.eot");
+    src: url("../fonts/PlayfairDisplayBold/PlayfairDisplayBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/PlayfairDisplayBold/PlayfairDisplayBold.woff") format("woff"),
+    url("../fonts/PlayfairDisplayBold/PlayfairDisplayBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "PlayfairDisplayRegular"; */
+@font-face {
+    font-family: "PlayfairDisplayRegular";
+    src: url("../fonts/PlayfairDisplayRegular/PlayfairDisplayRegular.eot");
+    src: url("../fonts/PlayfairDisplayRegular/PlayfairDisplayRegular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/PlayfairDisplayRegular/PlayfairDisplayRegular.woff") format("woff"),
+    url("../fonts/PlayfairDisplayRegular/PlayfairDisplayRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "AlegreyaBold"; */
+@font-face {
+    font-family: "AlegreyaBold";
+    src: url("../fonts/AlegreyaBold/Alegreya-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "AlegreyaRegular"; */
+@font-face {
+    font-family: "AlegreyaRegular";
+    src: url("../fonts/AlegreyaRegular/Alegreya-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "ScriptinaRegular"; */
+@font-face {
+    font-family: 'ScriptinaRegular';
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/ScriptinaRegular/ScriptinaRegular.woff") format('woff');
+}
+
+
+/* Base styles
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _  */
+
+body {
+    font: 100%/1.5 Arial, sans-serif;
+    margin: 0;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+article, aside, details, figcaption, figure, footer, hgroup, menu, nav, section {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.wrapper-content {
+    width: 78.75%;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+section#hero {
+    background: url("../img/hero-bg.png") no-repeat;
+    height: 720px;
+    background-size: 100%;
+}
+
+#header {
+    height: 70px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+#logo {
+    font-family: "ScriptinaRegular";
+    font-size: 1.875em;
+    color: #ffffff;
+}
+
+#header ul.main-nav {
+    position: relative;
+    bottom: 22px;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#header ul.main-nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+#header ul.main-nav a {
+    font-family: "AlegreyaRegular";
+    font-size: 0.875em;
+    text-transform: uppercase;
+}
+
+#hero {
+    color: #ffffff;
+}
+
+#hero a {
+    color: #ffffff;
+}
+
+.social-media {
+    position: relative;
+    float: right;
+    bottom: 45px;
+}
+
+.social-media li {
+    display: inline;
+    margin-left: 25px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#header ul.main-nav li:after {
+    content: ' ';
+    height: 1px;
+    width: 7px;
+    display: inline-block;
+    position: relative;
+    bottom: 4px;
+    left: 22px;
+    background: #ffffff;
+}
+
+#header ul.main-nav a {
+    letter-spacing: 3px;
+}
+
+#header ul.main-nav li:last-child:after {
+    content: ' ';
+    display: none;
+}
+
+.hero-desc {
+    text-align: center;
+    position: relative;
+    top: 120px;
+}
+
+.hero-desc h1 {
+    font-family: "PlayfairDisplayBold";
+    font-size: 5.750em;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.hero-desc p {
+    font-family: "ProximaNovaRegular";
+    font-size: 1.5em;
+    width: 50%;
+    margin: 70px auto 40px;
+}
+
+.hero-desc a {
+    display: inline-block;
+    padding: 15px 50px;
+    font-family: "AlegreyaBold";
+    font-size: 0.875em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    background: rgba(97, 93, 84, 0.7);
+}
