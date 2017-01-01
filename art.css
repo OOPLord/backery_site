@@ -1,0 +1,74 @@
+#art{
+	margin-top: 900px;
+	width: 100%;
+	height: 760px;
+	background: url(images/artbg.png);
+}
+.artContent{
+	margin: 0 auto;
+	width: 78.75%;
+}
+.left{
+	float: left;
+}
+.artContent #leftArt{
+	margin: 130px 0px 0px 123px;
+	font-family: "AlegreyaBold";
+	font-size: 2.063em;
+	color: #56534c;
+}
+.artContent #delicious{
+	margin-left: 120px;
+	font-family: "AlegreyaRegular";
+	font-size: 0.625em;
+	color: #a47d5e;
+	text-transform: uppercase;
+	line-height: 10px;
+	word-spacing: 2px;
+}
+.artContent p{
+	margin: 45px 0px 0 40px;
+	font-family: "ProximaNovaRegular";
+	text-align: center;
+	font-size: 0.688em;
+	color: #56534c;
+	width: 340px;
+	line-height: 15px;
+	word-spacing: 2px;
+}
+.artContent #chef{
+	margin: 40px 0px 0px 170px;
+	font-family: "AlegreyaRegular";
+	font-size: 1em;
+	color: #56534c;
+}
+.left #name{
+	margin: 30px 0 0 30px;
+	width: 100px;
+	border-top: 1px solid #d7d5ca;
+	font-family: "AlegreyaRegular";
+	padding: 15px 17px;
+	border-bottom: 1px solid #d7d5ca;
+	float:left;
+}
+.left #avatar{
+	margin: -35px 0 0 -55px;
+	float: left;	
+}
+.left #surname{
+	margin: 30px 0 0 -47px;
+	float: left;
+	width: 100px;
+	border-top: 1px solid #d7d5ca;
+	font-family: "AlegreyaRegular";
+	padding: 15px 17px;
+	border-bottom: 1px solid #d7d5ca;
+}
+.left #Scriptina{
+	margin-left: 10px;
+	font-family: 'ScriptinaRegular';
+	font-size: 1.8em;
+	color: #a47d5e;
+	clear: left;
+	width: 400px;
+}
